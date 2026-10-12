@@ -1,0 +1,27 @@
+# build output
+03-bin/
+*.exe
+*.pdb
+*.dll
+
+# runtime state (contains per-device HMAC keys — never commit)
+data/
+.rdsh/
+devices.json
+relay.key
+agent.json
+audit.log
+*.pid
+
+# scratch / logs
+_*
+*.log
+
+# node
+node_modules/
+
+# editors / OS
+.vs/
+.vscode/
+Thumbs.db
+desktop.ini
